@@ -1,0 +1,7 @@
+{application,emqx_management,
+             [{description,"EMQ X Management API and CLI"},
+              {vsn,"git"},
+              {modules,[]},
+              {registered,[emqx_management_sup]},
+              {applications,[kernel,stdlib,minirest,clique]},
+              {mod,{emqx_mgmt_app,[]}}]}.
